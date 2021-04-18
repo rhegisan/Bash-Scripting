@@ -14,5 +14,5 @@ do
 done
 
 td=$(date)
-exec 4> hero.txt
+exec 4>> hero.txt
 echo $td >&4 
